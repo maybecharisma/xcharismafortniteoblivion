@@ -12,12 +12,11 @@ const ms = require('ms');
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-
+const prefix = "t!"
 var JackCode = SteamTotp.getAuthCode(configJ.sharedSecret);
 var BenCode = SteamTotp.getAuthCode(configB.sharedSecret);
 var SammyCode = SteamTotp.getAuthCode(configS.sharedSecret);
 
-var settings = './settingsConfig/settings.json';
 var file = require(settings)
 
 // require('console-stamp')(console, '[HH:MM:ss]');
