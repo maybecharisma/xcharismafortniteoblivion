@@ -228,7 +228,7 @@ bot.on("ready", function(){
 bot.on("message", function(message){
     if (message.author.equals(bot.user)) return;
 
-    var prefix = (file.prefix[message.guild.id] == undefined) ? file.prefix["default"] : file.prefix[message.guild.id];
+
 
     let help111 = new Discord.RichEmbed()
             .addField("Help:", "----------------------------------------------------------------------------\n" +
