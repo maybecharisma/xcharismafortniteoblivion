@@ -2,6 +2,7 @@ var findYoutubeUrls = require('find-youtube-urls');
 const GoogleImages = require('google-images');
 const SteamTotp = require('steam-totp');
 const Discord = require('discord.js');
+const bot = new Discord.Client();
 const fortnite = require('fortnite');
 var getJSON = require('get-json');
 var memes = require('dankmemes');
