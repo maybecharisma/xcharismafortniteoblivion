@@ -13,9 +13,6 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 const prefix = "t!"
-var JackCode = SteamTotp.getAuthCode(configJ.sharedSecret);
-var BenCode = SteamTotp.getAuthCode(configB.sharedSecret);
-var SammyCode = SteamTotp.getAuthCode(configS.sharedSecret);
 
 var file = require(settings)
 
