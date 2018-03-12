@@ -13,10 +13,6 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 
-const configS = require('./settingsConfig/ConfigSammy.json');
-const configJ = require('./settingsConfig/ConfigJack.json');
-const configB = require('./settingsConfig/ConfigBen.json');
-
 var JackCode = SteamTotp.getAuthCode(configJ.sharedSecret);
 var BenCode = SteamTotp.getAuthCode(configB.sharedSecret);
 var SammyCode = SteamTotp.getAuthCode(configS.sharedSecret);
