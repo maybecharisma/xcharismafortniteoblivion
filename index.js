@@ -14,7 +14,6 @@ var request = require('request');
 var cheerio = require('cheerio');
 const prefix = "t!"
 
-var file = require(settings)
 
 // require('console-stamp')(console, '[HH:MM:ss]');
 
