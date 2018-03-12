@@ -202,7 +202,7 @@ function getYTinfo(yturl, response) {
     });
 }
 
-var bot = new Discord.Client();
+
 
 var servers = {};
 
